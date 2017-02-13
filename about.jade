@@ -1,0 +1,29 @@
+extends base
+from layout/macro/post-collapse import render as post_template
+from layout/macro/sidebar import render as sidebar_template
+
+
+
+block content
+    .posts-expand#posts
+        .category-all-page
+            .category-list= "首先呢, 我是个程序员, 可以非常专注于细节"
+            .category-list= "&nbsp&nbsp"
+            .category-list= "其次呢, 我的思维非常发散, 兴趣爱好特别广泛, 有着特别强的信息攫取欲望"
+            .category-list= "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp这样呢, 信息于我, 如飞燕般掠过, 不留痕迹"
+            .category-list= "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp不留痕迹, 没有沉淀, 或者说, 只在我的脑细胞中停留一段短暂的时间"
+            .category-list= "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspwithout connection, there will be no binding"
+            .category-list= "&nbsp&nbsp"
+            .category-list= "有时候非常讨厌这样的感觉, 不希望除了枯骨, 在时间这个维度上, 没有自己太多的痕迹"
+            .category-list= "于是,强迫自己开始写……写……写"
+            .category-list= "&nbsp&nbsp"
+            .category-list= "对所有跟美有关的展现形式都非常有兴趣, 譬如说绘画, 书法"
+            .category-list= "对所有需要跟外界建立连接的方式都非常有兴趣, 譬如说语言, 人类语言, 英语, 最近在学德语; 机器语言, 代码"
+            .category-list= "&nbsp&nbsp"
+            .category-list= "最后, feel free to contact me if you're interested in me. "
+
+
+block sidebar
+    +sidebar_template(is_post=False)
+
+

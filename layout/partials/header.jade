@@ -37,9 +37,14 @@ div(class=class_site_meta)
                 i.menu-item-icon.fa.fa-fw.fa-archive
                 br
                 还想看别的=(^.^)=
-        if has('about.md')
+        li.menu-item.menu-item-about
+            a(href='/about', rel='section')
+                i.menu-item-icon.fa.fa-fw.fa-user
+                br
+                关于偶   ( ؔ⚈͟ ◡ ؔ⚈͟ ๑)
+        if has('/about')
             li.menu-item.menu-item-about
-                a(href='/about.md', rel='section')
+                a(href='/about', rel='section')
                     i.menu-item-icon.fa.fa-fw.fa-user
                     br
                     关于
