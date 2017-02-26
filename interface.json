@@ -266,6 +266,18 @@
                                 "title": "GitHub",
                                 "placeholder": "GitHub ID",
                                 "model": "text"
+                            },
+                            {
+                                "key": "linkedin",
+                                "title": "Linkedin",
+                                "placeholder": "linkedin ID",
+                                "model": "text"
+                            },
+                            {
+                                "key": "zhihu",
+                                "title": "Zhihu",
+                                "placeholder": "zhihu ID",
+                                "model": "text"
                             }
                         ]
                     }

@@ -55,6 +55,8 @@ mixin render(is_post)
                     - var instagram = site.configs.instagram
                     - var dribbble = site.configs.dribbble
                     - var github = site.configs.github
+                    - var linkedin = site.configs.linkedin
+                    - var zhihu = site.configs.zhihu
 
                     if weibo
                         span.links-of-author-item
@@ -81,6 +83,16 @@ mixin render(is_post)
                             a(href='//www.github.com/%s'%github, target='blank', title='GitHub')
                                 i.fa.fa-fw.fa-github
                                 | GitHub
+                    if linkedin
+                        span.links-of-author-item
+                            a(href='//www.linkedin.com/%s'%linkdin, target='blank', title='Linkedin')
+                                i.fa.fa-fw.fa-linkedin
+                                | Linkedin
+                    if zhihu
+                        span.links-of-author-item
+                            a(href='//www.zhihu.com/%s'%zhihu, target='blank', title='Zhihu')
+                                i.fa.fa-fw.fa-zhihu
+                                | Zhihu
 
                 - var cc = ['by', 'by-nc', 'by-nc-nd', 'by-nc-sa', 'by-nd', 'by-sa', 'zero']
                 if site.configs.creative_commons in cc 
