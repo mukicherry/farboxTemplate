@@ -49,7 +49,7 @@ mixin render(post, is_index, post_extra_class)
 
         div(itemprop='articleBody').post-body
             if is_index
-                div= post.content.limit(150)
+                div= post.content.limit(100)
                 .post-more-link.text-center
                     a.btn(href=post.url, rel='contents')= '阅读全文 &raquo;'
             else

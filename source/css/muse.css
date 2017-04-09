@@ -1417,10 +1417,10 @@ pre .javascript .function {
 }
 .post-more-link .btn {
   color: #fff;
-  font-size: 14px;
+  font-size: 10px;
   background: #222;
   border-radius: 0;
-  line-height: 2;
+  line-height: 1.5;
 }
 .posts-expand .post-tags {
   margin-top: 40px;
